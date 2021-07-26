@@ -84,6 +84,7 @@ radio3.addEventListener("change", function () {
 
 if (localStorage.getItem("theme") === undefined) {
   localStorage.setItem("theme", "themeStorageOne");
+  radio1.checked = true;
 }
 
 switch (localStorage.getItem("theme")) {

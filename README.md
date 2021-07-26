@@ -1,4 +1,4 @@
-![Calculator App](https://github.com/valencydickson/Rock-Paper-Scissors/blob/main/images/logo.svg)
+![Calculator App](https://github.com/valencydickson/calculator-app/blob/main/images/Calculator_icon.svg.png)
 
 ## Calculator App
 

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/Calculator_icon.svg.png"
+    />
+
+    <title>Calculator App</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media-style.css" />
+  </head>
+
+  <body id="root">
+    <!-- HEADER -->
+
+    <header>
+      <h2 class="logo">
+        <a href="/">calc</a>
+      </h2>
+      <div>
+        <div class="theme-id">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </div>
+
+        <div class="theme-container">
+          <p>THEME</p>
+          <fieldset class="theme-selector">
+            <input type="radio" name="action" id="1" value="1" />
+            <input type="radio" name="action" id="2" value="2" />
+            <input type="radio" name="action" id="3" value="3" />
+          </fieldset>
+        </div>
+      </div>
+    </header>
+
+    <!-- RESULT-BOX -->
+
+    <div class="result-box">
+      <p class="first-number"></p>
+      <p class="second-number"></p>
+    </div>
+
+    <!-- KEYPADS -->
+    <div class="keypads">
+      <button class="number-btn" value="7" type="button">7</button>
+      <button class="number-btn" value="8" type="button">8</button>
+      <button class="number-btn" value="9" type="button">9</button>
+      <button class="delete-btn" value="del" type="button">DEL</button>
+      <button class="number-btn" value="4" type="button">4</button>
+      <button class="number-btn" value="5" type="button">5</button>
+      <button class="number-btn" value="6" type="button">6</button>
+      <button class="operator-btn" value="+" type="button">+</button>
+      <button class="number-btn" value="1" type="button">1</button>
+      <button class="number-btn" value="2" type="button">2</button>
+      <button class="number-btn" value="3" type="button">3</button>
+      <button class="operator-btn" value="-" type="button">-</button>
+      <button class="number-btn" value="." type="button">.</button>
+      <button class="number-btn" value="0" type="button">0</button>
+      <button class="operator-btn" value="/" type="button">/</button>
+      <button class="operator-btn" value="X" type="button">x</button>
+      <button class="reset-btn" value="reset" type="button">RESET</button>
+      <button class="equal-btn" value="=" type="button">=</button>
+    </div>
+    <footer>
+      <p>Created by "Valency Dickson"</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+/* FOR DEVICE WITH WIDTH <375px */
+
+@media screen and (max-width: 374px) {
+  /* RESULT-BOX */
+
+  .result-box {
+    background-color: var(--secBg1);
+    margin: 0 1.2em 1em;
+    padding: 0.5em 0.8em;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+  }
+
+  /* KEYPADS */
+  .keypads button {
+    font-size: 1.5rem;
+    width: 45px;
+  }
+
+  .delete-btn {
+    font-size: 0.8rem;
+  }
+
+  .reset-btn,
+  .equal-btn {
+    width: 100px !important;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 500px;
+    margin: 0.5em auto 0.5em;
+  }
+
+  /* KEYPADS */
+  .keypads button {
+    width: 85px;
+  }
+
+  .reset-btn,
+  .equal-btn {
+    width: 185px !important;
+  }
+}
